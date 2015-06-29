@@ -1,0 +1,46 @@
+"*":
+  editor:
+    showInvisibles: true
+    showIndentGuide: true
+    tabLength: 4
+    invisibles: {}
+    fontFamily: "Menlo"
+    fontSize: 13
+    softWrap: true
+    preferredLineLength: 120
+    autoIndentOnPaste: false
+    softWrapAtPreferredLineLength: true
+  core:
+    themes: [
+      "one-light-ui"
+      "twilight"
+    ]
+  linter: {}
+  "exception-reporting":
+    userId: "6751d7da-5c68-1797-eafb-acaef1724a57"
+  welcome:
+    showOnStartup: false
+  minimap: {}
+  pigments:
+    delayBeforeScan: 2000
+  "atom-ternjs": {}
+  "autocomplete-plus": {}
+  autosave: {}
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+".console.python.text":
+  editor:
+    preferredLineLength: 120
+".python.text.traceback":
+  editor:
+    preferredLineLength: 120
+".python.regexp.source":
+  editor:
+    preferredLineLength: 120
+".js.source":
+  editor:
+    tabLength: 4
+".python.source":
+  editor:
+    preferredLineLength: 120
