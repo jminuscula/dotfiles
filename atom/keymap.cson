@@ -1,29 +1,6 @@
-# Your keymap
 #
-# Atom keymaps work similarly to style sheets. Just as style sheets use
-# selectors to apply styles to elements, Atom keymaps use selectors to associate
-# keystrokes with events in specific contexts.
+# EDITOR
 #
-# You can create a new keybinding in this file by typing "key" and then hitting
-# tab.
-#
-# Here's an example taken from Atom's built-in keymap:
-#
-# 'atom-text-editor':
-#   'enter': 'editor:newline'
-#
-# 'atom-workspace':
-#   'ctrl-shift-p': 'core:move-up'
-#   'ctrl-p': 'core:move-down'
-#
-# You can find more information about keymaps in these guides:
-# * https://atom.io/docs/latest/customizing-atom#customizing-key-bindings
-# * https://atom.io/docs/latest/advanced/keymaps
-#
-# This file uses CoffeeScript Object Notation (CSON).
-# If you are unfamiliar with CSON, you can read more about it here:
-# https://github.com/bevry/cson#what-is-cson
-
 'atom-workspace atom-text-editor:not([mini])':
   # select
   'cmd-shift-l': 'editor:select-line'
@@ -41,3 +18,19 @@
   # view
   'cmd-alt-w': 'editor:toggle-soft-wrap'
   'cmd-l': 'go-to-line:toggle'
+
+#
+# GIT
+#
+'atom-workspace':
+  'alt-shift-g': 'git-plus:menu'
+  'ctrl-shift-g': 'git-control:toggle'
+
+  # disable git-plus direct commands
+  'shift-cmd-A': 'unset!'
+  'shift-cmd-A a': 'unset!'
+  'shift-cmd-A c': 'unset!'
+  'shift-cmd-A p': 'unset!'
+  'shift-cmd-A s': 'unset!'
+  'shift-cmd-C': 'unset!'
+  'shift-cmd-H': 'unset!'

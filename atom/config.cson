@@ -20,7 +20,9 @@
     userId: "6751d7da-5c68-1797-eafb-acaef1724a57"
   welcome:
     showOnStartup: false
-  minimap: {}
+  minimap:
+    plugins:
+      "git-diff": true
   pigments:
     delayBeforeScan: 2000
   "atom-ternjs": {}
@@ -29,6 +31,7 @@
   "tree-view":
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
+  "git-diff": {}
 ".console.python.text":
   editor:
     preferredLineLength: 120
