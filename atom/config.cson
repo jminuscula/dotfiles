@@ -15,6 +15,20 @@
       "one-light-ui"
       "twilight"
     ]
+    disabledPackages: [
+      "symbols-view"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "public"
+      "node_modules"
+      "coverage"
+      ".tags*"
+    ]
   linter: {}
   "exception-reporting":
     userId: "6751d7da-5c68-1797-eafb-acaef1724a57"
@@ -23,6 +37,7 @@
   minimap:
     plugins:
       "git-diff": true
+      "highlight-selected": true
   pigments:
     delayBeforeScan: 2000
   "atom-ternjs": {}
@@ -31,7 +46,27 @@
   "tree-view":
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
-  "git-diff": {}
+  "git-diff":
+    showIconsInEditorGutter: true
+  "atom-ctags":
+    autoBuildTagsWhenActive: true
+    cmdArgs: "--exclude=library --exclude=node_modules --exclude=vendor --exclude=test --exclude=bin --exclude=config --exclude=cache --exclude=bower_components --exclude=lib"
+  "autocomplete-ctags": {}
+  "git-plus":
+    wordDiff: false
+  "fuzzy-finder":
+    searchAllPanes: true
+    preserveLastSearch: true
+    ignoredNames: [
+      "coverage"
+      "data"
+      "node_modules"
+      "data"
+      "library"
+      "public"
+      "cache"
+      "public"
+    ]
 ".console.python.text":
   editor:
     preferredLineLength: 120
@@ -39,6 +74,9 @@
   editor:
     preferredLineLength: 120
 ".python.regexp.source":
+  editor:
+    preferredLineLength: 120
+".diff.source":
   editor:
     preferredLineLength: 120
 ".js.source":
