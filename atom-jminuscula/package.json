@@ -1,11 +1,11 @@
 {
   "name": "jminuscula",
   "main": "./lib/jminuscula",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "misc utilities",
   "keywords": [
   ],
-  
+
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

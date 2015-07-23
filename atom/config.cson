@@ -29,6 +29,7 @@
       "coverage"
       ".tags*"
     ]
+    excludeVcsIgnoredPaths: false
   linter: {}
   "exception-reporting":
     userId: "6751d7da-5c68-1797-eafb-acaef1724a57"
@@ -66,22 +67,30 @@
       "public"
       "cache"
       "public"
+      "*cache"
+      "bower_components"
+      "equity/**/frontend/modules"
+      "equity/**/library"
     ]
-".console.python.text":
+  "sync-settings":
+    personalAccessToken: "bb1ba1adebf0de176668d3432cb869b8904ccad1"
+    gistId: "b772d2b4b84476c9ff0d"
+    syncSnippets: false
+".python.regexp.source":
   editor:
     preferredLineLength: 120
 ".python.text.traceback":
   editor:
     preferredLineLength: 120
-".python.regexp.source":
+".console.python.text":
   editor:
     preferredLineLength: 120
-".diff.source":
+".python.source":
   editor:
     preferredLineLength: 120
 ".js.source":
   editor:
     tabLength: 4
-".python.source":
+".diff.source":
   editor:
     preferredLineLength: 120

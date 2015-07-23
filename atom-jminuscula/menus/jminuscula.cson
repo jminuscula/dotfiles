@@ -8,7 +8,11 @@
         {
           'label': 'End line with semicolon'
           'command': 'easy-semicolon:end-new-line'
-        }
+        },
+        {
+          'label': 'Reassign tabindex order'
+          'command': 'tabindex:fix'
+        },
       ]
     ]
   }
